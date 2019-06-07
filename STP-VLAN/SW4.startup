@@ -12,9 +12,6 @@ brctl addif br0.20 eth0
 brctl addif br0.20 eth1
 brctl addif br0.20 eth2
 
-ifconfig eth0 up
-ifconfig eth1 up
-ifconfig eth2 up
 ifconfig eth3.20 up
 
 ifconfig br0.20 up
